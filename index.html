@@ -23,19 +23,34 @@
   <main>
     <section class="hero">
       <h1>Hi, I'm Barukula Snehitha</h1>
-      <h6>“That’s one of those things about being a computer science major: Valentine’s Day is just another day.”
-      </h6> 
-      <a href="https://www.brainyquote.com/authors/jawed-karim-quotes" class="quote"> - Jawed Karim</a>
-      <a href="https://docs.google.com/document/d/1sOi89WHqkwkmwCgK8LPP7k8uSqCpCq_JlD-N2oiNgDw/edit?usp=sharing" class="cta">View My Resume →</a>
+      <h6>Actively seeking Full-Time & Internship opportunities | MS in CS at Northeastern University</h6> 
+      <a href="https://docs.google.com/document/d/1JCXk2wBVKPbUUYw2_QDlra3UaOs_pWJIcod4Bz5uCFs/edit?usp=sharing" class="cta">View My Resume →</a>
+    
+      <!-- Experience Box -->
+      <div class="experience-box">
+        <div class="exp-item">
+          <h3>2+</h3>
+          <p>Years of Experience</p>
+        </div>
+        <div class="exp-item">
+          <h3>10+</h3>
+          <p>Completed Projects</p>
+        </div>
+        <div class="exp-item">
+          <h3>5K+</h3>
+          <p>Hours Worked</p>
+        </div>
+      </div>
     </section>
+    
 
     <section id="about" class="content-section">
       <h2><i class="fas fa-user"></i> About Me</h2>
       <div class="about-container">
         <img src="res/myphoto.jpeg" alt="Barukula Snehitha" class="profile-photo">
         <p>
-          Hello, my name is Snehitha Barukula, and I am currently pursuing a Master's in Computer Science at Northeastern University, Boston. 
-          With a solid foundation in software engineering and data-driven solutions, I specialize in AI, cloud technologies, and data engineering. 
+          Hello, my name is Snehitha Barukula, and I am recent graduate from Master's in Computer Science at Northeastern University, Boston. 
+          With a solid foundation in software engineering and data-driven solutions, I specialize in AI, Full Stack, Cloud Technologies, and Data Engineering. 
           My experience includes impactful projects where I designed and implemented scalable systems, leveraging technologies like AWS, Python, and SQL.<br><br>
           I’ve also contributed to meaningful academic research, with publications showcasing my ability to analyze and solve real-world challenges. 
           Beyond technical skills, I’m passionate about collaborative problem-solving and thrive in environments that prioritize innovation and efficiency. 
@@ -48,7 +63,7 @@
         <h2><i class="fas fa-graduation-cap"></i> Education</h2>
         <div class="content-card">
           <p>
-            I am currently pursuing a Master of Science in Computer Science at Northeastern University, Boston, MA, Khoury College of Computer and Information Science, from September 2023 to December 2025. My coursework includes Algorithms, Machine Learning, NLP, Database Management Systems, Web Development and Programming Design Paradigms.
+            I am recent graduate from Master of Science in Computer Science at Northeastern University, Boston, MA, Khoury College of Computer and Information Science, from September 2023 to December 2025. My coursework includes Algorithms, Machine Learning, NLP, Database Management Systems, Deep Learning, Patterns of computer vision, Web Development and Programming Design Paradigms.
             Previously, I completed my Bachelor of Technology in Computer Science Engineering at SRM University, Andhra Pradesh, India, from June 2018 to May 2022. During my undergraduate studies, I was awarded a $1,500 scholarship for the Study Abroad Program at UC Davis as a top performer among 3,000 students.
           </p>
         </div>
@@ -204,21 +219,87 @@
         <h2>Projects</h2>
         <div class="projects-container">
           <!-- Project 1 -->
+
+          <div class="project-card">
+            <img src="res/live.png" alt="Real-Time Multilingual Handwritten Digit Recognition using CNNs" class="project-image">
+            <div class="project-details">
+              <h3>Real-Time Multilingual Handwritten Digit Recognition using CNNs (Apr 2025)</h3> <a href="https://drive.google.com/file/d/1XFVs1DXZIVlNlWrs2kCW1QGnLqFGwCMZ/view?usp=sharing" target="_blank" class="demo-link">🔗 View Demo</a> 
+              <p>
+                Developed a real-time digit recognition system for Hindi and Telugu scripts using a lightweight CNN model in PyTorch. Achieved 91.9% character accuracy and 99.5% script classification accuracy. Integrated OpenCV for live webcam-based predictions with visual overlay. Designed modular training and visualization pipeline with filter analysis, grid-based test display, and support for custom image inputs.
+              </p>
+              <h6>Tech Stacks: Python, PyTorch, OpenCV, NumPy, Matplotlib</h6>
+          
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="res/5.png" alt="Calibration and Augmented Reality" class="project-image">
+            <div class="project-details">
+              <h3>Calibration and Augmented Reality (Apr 2025)</h3> <a href="https://drive.google.com/file/d/1pVqvRa0Wo0TDqhaMCTxAr7436QV5U5_f/view?usp=sharing" target="_blank" class="demo-link">🔗 View Demo</a> 
+              <p>
+                Implemented an augmented reality system by calibrating a camera using OpenCV to correct lens distortion and estimate pose with checkerboard targets. Projected 3D axes and virtual objects (cube, cylinder, pyramid) into real-world scenes in real-time. Enabled robust AR rendering through Harris corner detection and multi-target tracking. Developed and tested on MacBook with iPhone camera using C++ and OpenCV.
+              </p>
+              <h6>Tech Stacks: C++, OpenCV, CMake, iPhone Camera (Continuity)</h6>
+          
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="res/image.png" alt="ContrastiveBERT: Sentence-Level Pretraining Beyond NSP" class="project-image">
+            <div class="project-details">
+              <h3>ContrastiveBERT: Sentence-Level Pretraining Beyond NSP (Mar 2025)</h3> <a href="https://snemodi.github.io/contrasiveBERT/" target="_blank" class="demo-link">🔗 View Demo</a> 
+              <p>
+                Proposed a BERT-based model replacing Next Sentence Prediction (NSP) with a contrastive triplet loss to enhance sentence-level semantic representations. Introduced hard negative sampling, mean pooling, and a projection head for better embedding separation. Fine-tuned the model on MNLI for Natural Language Inference and adapted it for Named Entity Recognition (NER) using CoNLL-2003, achieving 93% F1. Visualized performance using t-SNE plots and similarity scores, outperforming baseline BERT on semantic coherence.
+              </p>
+              <h6>Tech Stacks: Python, PyTorch, HuggingFace Transformers, scikit-learn, Google Colab, t-SNE, Matplotlib, Wikitext-2, CoNLL-2003</h6>
+          
+            </div>
+          </div>
+
           <div class="project-card">
             <img src="res/4.jpeg" alt="Image Manipulation Tool" class="project-image">
             <div class="project-details">
-              <h3>Image Manipulation Tool (Sep 2024)</h3>
+              <h3>Image Manipulation Tool (Sep 2024)</h3> 
               <p>
                 Designed an advanced Java Swing application supporting 10+ operations like flipping, brightening, and applying a sepia effect. 
                 Implemented real-time RGB histogram visualization and Haar Wavelet Transform for image compression.
               </p>
-              <h4>Skills Used:</h4>
-              <ul>
-                <li>Java</li>
-                <li>Swing</li>
-                <li>Haar Wavelet Transform</li>
-                <li>MVC Architecture</li>
-              </ul>
+              <h6>Tech Stacks: Java, Swing, Haar Wavelet Transform, MVC Architecture</h6>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="res/ML.png" alt="Image Classification with Regularization and Optimization" class="project-image">
+            <div class="project-details">
+              <h3>Image Classification with Regularization and Optimization (Mar 2025)</h3> <a href="https://drive.google.com/file/d/1XFVs1DXZIVlNlWrs2kCW1QGnLqFGwCMZ/view?usp=sharing" target="_blank" class="demo-link">🔗 View Demo</a> 
+              <p>
+                Implemented a neural network for image classification using CIFAR-10, experimenting with L1, L2, and ElasticNet regularization to prevent overfitting. Compared performance across SGD, Adam, and RMSProp optimizers. Visualized training dynamics, learning curves, and class-specific accuracy. Identified best-performing combinations for model generalization and robustness.              </p>
+              <h6>Tech Stacks: Python, NumPy, Matplotlib, PyTorch, CIFAR-10</h6>
+          
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="res/comparison.png" alt="Survey on RNN & LSTM Architectures" class="project-image">
+            <div class="project-details">
+              <h3>Survey on RNN & LSTM Architectures (Jan 2024)</h3> <a href="https://drive.google.com/file/d/1D69_4i4kPAw7J3tXszmOWw0y2ug9tVaY/view?usp=sharing" target="_blank" class="demo-link">🔗 View Demo</a> 
+              <p>
+                Conducted a comprehensive survey of recent advancements in RNN and LSTM architectures, including novel models like RWKV, E-LSTM, ∞-former, and Liquid Time-Constant Networks. The study analyzed their applications across domains like cybersecurity, healthcare, agriculture, and video analysis, highlighting improvements in scalability, efficiency, and interpretability.              </p>
+              <h6>Tech Stacks & Resources: Python, LaTeX, IEEE Xplore, arXiv, Springer, Google Scholar</h6>
+          
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="res/nlp.png" alt="N-gram Models in NLP" class="project-image">
+            <div class="project-details">
+              <h3>N-gram Models in NLP (Jun 2024)</h3> <a href="https://drive.google.com/file/d/19lEaqrPAOtXBQnNXZzbW1wMXo-UsQPGc/view?usp=sharing" target="_blank" class="demo-link">🔗 View Demo</a> 
+              <p>
+                Performed a literature survey exploring the evolution and hybridization of n-gram models in NLP. Covered applications in sentiment analysis, chatbots, malware detection, minority languages, and quantum computing integration. Evaluated comparative effectiveness across tasks and proposed future research directions in scalability, multilingual NLP, and data efficiency.              </p>
+              <h6>Tech Stacks & Resources: Python, Naive Bayes, CNN, Bi-LSTM, Quantum NLP (conceptual), Google Scholar, IEEE Xplore
+
+              </h6>
+          
             </div>
           </div>
       
@@ -226,18 +307,12 @@
           <div class="project-card">
             <img src="res/1.png" alt="AI Patient Risk Prediction" class="project-image">
             <div class="project-details">
-              <h3>AI Patient Risk Prediction (Jun 2024)</h3>
+              <h3>AI Patient Risk Prediction (Jun 2024)</h3> <a href="https://github.com/sneMoDi/AI-Powered-Patient-Risk-Prediction-System-" target="_blank" class="demo-link">🔗 View Demo</a> 
               <p>
                 Developed an AI-driven system to identify high-risk patients for diabetes, hypertension, and stroke. 
                 Achieved accuracies of 74.6%, 85.7%, and 89.6% using Python and machine learning techniques.
               </p>
-              <h4>Skills Used:</h4>
-              <ul>
-                <li>Python</li>
-                <li>Machine Learning</li>
-                <li>Pandas</li>
-                <li>Scikit-learn</li>
-              </ul>
+              <h6>Tech Stacks: Python, Machine Learning, Pandas, Scikit-learn</h6>
             </div>
           </div>
       
@@ -245,37 +320,33 @@
           <div class="project-card">
             <img src="res/3.png" alt="Data Analysis Dashboard" class="project-image">
             <div class="project-details">
-              <h3>Data Analysis Dashboard (Jun 2024)</h3>
+              <h3>Data Analysis Dashboard (Jun 2024)</h3> <a href="https://github.com/sneMoDi/dataAnalysisDashboard" target="_blank" class="demo-link">🔗 View Demo</a> 
               <p>
                 Developed a user-friendly, interactive web-based dashboard for dynamic data analysis and visualization, enabling users to explore datasets and generate insights.
               </p>
-              <h4>Skills Used:</h4>
-              <ul>
-                <li>Python</li>
-                <li>Machine Learning</li>
-                <li>Pandas</li>
-                <li>HTML, CSS, JavaScript</li>
-                <li>Flask</li>
-                <li>Matplotlib</li>
-              </ul>
+              <h6>Tech Stacks: Python, Machine Learning, Pandas, HTML, CSS, JavaScript, Flask, Matplotlib</h6>
             </div>
           </div>
+
+          
         </div>
 
-    <div class="project-card">
-      <img src="res/2.jpg" alt="cloud-based" class="project-image">
-      <div class="project-details">
-        <h3>Cloud Based Transformation Pipeline (Jul 2022</h3>
-        <p>
-          Developed a scalable ETL pipeline using AWS Glue, S3, and Redshift to process high-volume transactional data efficiently. Integrated PySpark for data transformations, reducing runtime by 50%, and automated workflows to ensure real-time data insights.        </p>
-        <h4>Skills Used:</h4>
-        <ul>
-          <li>Python</li>
-          <li>AWS S3, Glue, Redshift</li>
-          <li>PySpark</li>
-        </ul>
-      </div>
-    </div>
+        <!-- <div class="project-card">
+          <img src="res/2.jpg" alt="cloud-based" class="project-image">
+          <div class="project-details">
+            <h3>Cloud Based Transformation Pipeline (Jul 2022</h3>
+            <p>
+              Developed a scalable ETL pipeline using AWS Glue, S3, and Redshift to process high-volume transactional data efficiently. Integrated PySpark for data transformations, reducing runtime by 50%, and automated workflows to ensure real-time data insights.        </p>
+            <h4>Skills Used:</h4>
+            <ul>
+              <li>Python</li>
+              <li>AWS S3, Glue, Redshift</li>
+              <li>PySpark</li>
+            </ul>
+          </div>
+        </div> -->
+ 
+    
     <!-- Additional Projects -->
     <!-- Repeat the above structure for each additional project -->
   </div>
@@ -286,7 +357,7 @@
 
 
 <section id="publications" class="content-section">
-  <h2><i class="fas fa-book"></i> Awards</h2>
+  <h2><i class="fas fa-book"></i> Awards & Publications</h2>
   <div class="content-card">
     <p><b></b>Awarded a $1,500 scholarship for the Study Abroad Program at UC Davis as a top performer among 3,000 students.
     </p>
@@ -312,8 +383,11 @@
         <a href="https://www.linkedin.com/in/snehithabarukula/" target="_blank" class="contact-link">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" class="contact-icon">
         </a>
-        <a href="https://instagram.com/grad.voyage" target="_blank" class="contact-link">
+        <a href="https://www.instagram.com/snehitha_barukula/" target="_blank" class="contact-link">
           <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" class="contact-icon">
+        </a>
+        <a href="mailto:snehithabns@gmail.com" class="contact-link">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Circle-icons-mail.svg" alt="Email" class="contact-icon">
         </a>
       </div>
   
